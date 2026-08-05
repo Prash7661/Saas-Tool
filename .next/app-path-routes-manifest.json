@@ -1,0 +1,7 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/checkout/route": "/api/checkout",
+  "/api/webhooks/stripe/route": "/api/webhooks/stripe",
+  "/page": "/"
+}
