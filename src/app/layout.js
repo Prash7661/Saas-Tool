@@ -1,4 +1,5 @@
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Free CSV to Markdown Table Converter Online | Convert Excel & TSV to Markdown',
@@ -37,7 +38,9 @@ export default function RootLayout({ children }) {
     <html lang="en" className="dark scroll-smooth">
       <body className="bg-slate-900 text-slate-100 min-h-screen antialiased selection:bg-teal-500 selection:text-slate-900">
         {children}
+        <Analytics />
       </body>
     </html>
   );
 }
+
