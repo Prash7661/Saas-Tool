@@ -557,6 +557,16 @@ Click "Upgrade to Pro ($5)" above to unlock immediately.`;
           </div>
         )}
 
+        {/* PRIVACY TRUST BANNER */}
+        <div className="bg-teal-500/10 border border-teal-500/20 text-slate-300 text-xs p-3.5 rounded-xl shadow-inner flex items-center gap-3">
+          <div className="p-1.5 bg-teal-500/20 rounded-lg text-teal-400 shrink-0">
+            <ShieldCheck className="w-4 h-4" />
+          </div>
+          <p className="leading-relaxed">
+            <strong className="text-teal-300 font-semibold">🔒 100% Client-Side Privacy:</strong> Your files and datasets are processed entirely inside your browser&apos;s local memory. No data is ever sent, stored, or processed on our servers.
+          </p>
+        </div>
+
         {/* TOOLBAR CONTROLS */}
         <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-4 flex flex-wrap items-center justify-between gap-4">
           
