@@ -53,8 +53,11 @@
 - **Stripe Webhook:** `https://saas-tool-final.vercel.app/api/webhooks/stripe`
 - **Stripe Checkout API:** `https://saas-tool-final.vercel.app/api/checkout`
 - **Google Search Query:** `site:saas-tool-final.vercel.app`
-- **Index Audit Date:** `2026-08-06`
-- **Indexation Status:** `Submitted to Google Search Console / Crawl Pending (Domain active)`
+- **Index Audit Date:** `2026-08-09`
+- **Indexation Strategy:** `Zero-Cost Passive Organic Crawl (Target Window: Aug 9 – Aug 23, 2026)`
+- **Indexation Status:** `Submitted to Google Search Console / Crawl Pending`
+- **Custom Domain Decision:** `Deferred until organic traffic & conversion metrics are validated`
+
 
 ### Monetization & Monitoring Cadence
 1. **$5.00 Lifetime Pro Conversion:** Restricts tabular exports > 10 rows and drag-and-drop `.xlsx` files with instant Stripe Checkout trigger.
