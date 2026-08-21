@@ -43,6 +43,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark scroll-smooth">
+      <head>
+        <meta name="google-site-verification" content="hqEoJXBwLoyv5LxZgnlsc7WBUv5D4v6jgRhd8SpNc4c" />
+      </head>
       <body className="bg-slate-900 text-slate-100 min-h-screen antialiased selection:bg-teal-500 selection:text-slate-900">
         {children}
         <Analytics />
