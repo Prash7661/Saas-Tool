@@ -2,6 +2,7 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
+  metadataBase: new URL('https://saas-tool-final.vercel.app'),
   title: 'Free CSV to Markdown Table Converter Online | Convert Excel & TSV to Markdown',
   description: 'Convert CSV, Excel, and TSV tabular data into perfectly formatted Markdown tables instantly in your browser. 100% free client-side processing, high speed, zero latency.',
   keywords: [
@@ -14,10 +15,13 @@ export const metadata = {
     'micro saas markdown tool'
   ],
   authors: [{ name: 'MarkdownTableIO Team' }],
+  alternates: {
+    canonical: 'https://saas-tool-final.vercel.app',
+  },
   openGraph: {
     title: 'MarkdownTableIO | Free CSV to Markdown Table Converter',
     description: 'Convert tabular CSV & Excel datasets into clean, auto-aligned Markdown tables directly in your browser.',
-    url: 'https://markdowntableio.vercel.app',
+    url: 'https://saas-tool-final.vercel.app',
     siteName: 'MarkdownTableIO',
     locale: 'en_US',
     type: 'website',
